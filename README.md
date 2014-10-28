@@ -4,12 +4,10 @@ Note: EEG is the recording of electrical activity along the scalp - in other wor
 ## Motor Imagery
 * `motor_imagery` contains the code for EEG motor imagery classification.
 * EGG data was recorded around the motor cortex. Setup:
-- Signal recorded with a 8 channels EEG board (www.openBCI.com)
-- Three phases: no movement, left hand, right hand
-- Sampling rate: 4 ms
-* This classifier was made at the Numenta Hackathon (NuPIC Fall 2014 Hackathon) where I gave a little demo:
-- Slides: https://docs.google.com/presentation/d/1wFWSk4P3yHDkPzV19Q0sZYX9NhwvEBLJQQXKh0eyZws/edit?usp=sharing
-- Video: http://www.youtube.com/watch?v=UEh48KOmkIA
+1. Signal recorded with a 8 channels EEG board (www.openBCI.com)
+2. Three phases: no movement, left hand, right hand
+3. Sampling rate: 4 ms
+* This classifier was made at the Numenta Hackathon (NuPIC Fall 2014 Hackathon) where I gave a little demo: *[https://docs.google.com/presentation/d/1wFWSk4P3yHDkPzV19Q0sZYX9NhwvEBLJQQXKh0eyZws/edit?usp=sharing][Slides]* and *[http://www.youtube.com/watch?v=UEh48KOmkIA][Video]*
 
 ## Kaggle Competition (with Nicolas Thiebaud)
 * `kaggle` contains code for the "American Epilepsy Society Seizure Prediction Challenge"
