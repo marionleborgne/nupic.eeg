@@ -10,9 +10,6 @@
 * This classifier was made at the Numenta Hackathon (NuPIC Fall 2014 Hackathon) where I gave a little demo.
 * See **[demo slides](https://docs.google.com/presentation/d/1wFWSk4P3yHDkPzV19Q0sZYX9NhwvEBLJQQXKh0eyZws/edit?usp=sharing)** and **[video](http://www.youtube.com/watch?v=UEh48KOmkIA)**
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/UEh48KOmkIA" frameborder="0" allowfullscreen></iframe>
-
-
 ## Kaggle Competition (with Nicolas Thiebaud)
 * `kaggle` contains code for the "American Epilepsy Society Seizure Prediction Challenge"
 * The idea was to use Numenta's HTM to detect anomalies (slow waves in the EEG signal)
