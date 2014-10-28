@@ -1,7 +1,7 @@
 # Using Numenta's Hierachical Temporal Memory algorithm to classify EEG data
 *NB: EEG is the recording of electrical activity along the scalp - in other words, brainwaves :-)*
 
-## Motor Imagery
+## Motor Imagery Classification
 * `motor_imagery` contains the code for EEG motor imagery classification.
 * EGG data was recorded around the motor cortex. Setup:
 1. Signal recorded with a 8 channels EEG and [OpenBCI](www.openBCI.com) board.
@@ -10,9 +10,9 @@
 * This classifier was made at the Numenta Hackathon (NuPIC Fall 2014 Hackathon) where I gave a little demo.
 * See **[demo slides](https://docs.google.com/presentation/d/1wFWSk4P3yHDkPzV19Q0sZYX9NhwvEBLJQQXKh0eyZws/edit?usp=sharing)** and **[video](http://www.youtube.com/watch?v=UEh48KOmkIA)**.
 
-## Kaggle Competition
-* `kaggle` contains code for the "American Epilepsy Society Seizure Prediction Challenge".
-* In collaboration with [Nicolas Thiebaud](https://github.com/nt).
-* The idea was to use Numenta's HTM to detect anomalies (slow waves in the EEG signal).
+## Seizure Detection
+* `seizure_detection` uses Numenta's HTM to detect anomalies (slow waves in the EEG signal).
 * Detecting these anomalies accurately makes it possible to predict seizures so that they can be avoided.
-* See competition on [Kaggle](https://www.kaggle.com/c/seizure-prediction).
+* The datasets are too big to be uploaded. They can be found on [Kaggle](https://www.kaggle.com/c/seizure-prediction) "American Epilepsy Society Seizure Prediction Challenge".
+* Work in collaboration with [Nicolas Thiebaud](https://github.com/nt) and Dr. Richard Pantera.
+* Disclaimer: I am not participating in the Kaggle competition. The code in `seizure_detection` was only used to learn more about EEG data analysis :-)
