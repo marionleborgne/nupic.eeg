@@ -1,5 +1,5 @@
 # Using Numenta's Hierachical Temporal Memory algorithm to classify EEG data
-Note: EEG is the recording of electrical activity along the scalp - in other words, brainwaves :-)
+*NB: EEG is the recording of electrical activity along the scalp - in other words, brainwaves :-)*
 
 ## Motor Imagery
 * `motor_imagery` contains the code for EEG motor imagery classification.
