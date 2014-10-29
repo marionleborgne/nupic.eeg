@@ -1,7 +1,7 @@
-# Using Numenta's Hierachical Temporal Memory algorithm to classify EEG data
+## Using Numenta's Hierachical Temporal Memory algorithm to classify EEG data
 *NB: EEG is the recording of electrical activity along the scalp - in other words, brainwaves :-)*
 
-## Motor Imagery Classification (NuPIC Fall 2014 [Hackathon](http://www.meetup.com/numenta/events/202402962/))
+### Motor Imagery Classification (NuPIC Fall 2014 [Hackathon](http://www.meetup.com/numenta/events/202402962/))
 * `motor_imagery` contains the code for EEG motor imagery classification.
 * EGG data was recorded around the motor cortex. 
 * The signals were recorded with a 8 channels EEG and [OpenBCI](www.openBCI.com) board.
